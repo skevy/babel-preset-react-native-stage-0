@@ -2,13 +2,13 @@
 
 Have you encountered weird errors in React Native when trying to use `babel-preset-react-native` and `babel-preset-stage-0` together? Are you generally just confused and frustrating by how hard it is to use the latest and greatest Babel features on RN? This preset is for you!
 
-### Installation
+## Installation
 
 ```bash
 npm install babel-preset-react-native-stage-0 --save
 ```
 
-### Usage
+## Usage
 
 Just add a `.babelrc` file to your React Native project that looks like this:
 
@@ -26,13 +26,17 @@ Do you want/need experimental legacy decorator support (provided by [babel-plugi
 }
 ```
 
-### Troubleshooting
+## Troubleshooting
 
-Q: I added `stage-0` to my "presets" list, and now everything is broken!
-A: Don't do that! This preset supersedes the need for including the stage-0 preset, and works properly with React Native.
+**Q**: I added `stage-0` to my "presets" list, and now everything is broken!
 
-Q: I changed my .babelrc to the above, but I'm still getting strange Babel errors!
-A: Have you cleared your packager cache? Run the following:
+**A**: Don't do that! This preset supersedes the need for including the stage-0 preset, and works properly with React Native.
+
+---
+
+**Q**: I changed my .babelrc to the above, but I'm still getting strange Babel errors!
+
+**A**: Have you cleared your packager cache? Run the following:
 
 ```bash
 watchman watch-del-all
