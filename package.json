@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-react-native-stage-0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable stage-0 Babel features on React Native.",
   "main": "index.js",
   "repository": "https://github.com/skevy/babel-preset-react-native-stage-0",
